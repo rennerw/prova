@@ -1,0 +1,14 @@
+$TTL 1h
+@ IN SOA ns.ichi.br. root.ichi.br. (
+2018050301; serial
+108000; refresh
+3600; retry
+604800; expire
+38400; minium
+)
+@ IN NS ns.ichi.br.
+1 IN PTR servidor.ichi.br.
+1 IN PTR mail.ichi.br.
+77 IN PTR ichi.br.
+77 IN PTR www2.ichi.br.
+2 IN PTR pgsql.ichi.br.

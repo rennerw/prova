@@ -1,0 +1,10 @@
+Procurando  'www2.ichi.br' first
+[?1049h[1;45r(B[m[4l[?7h[?1h=[39;49m[39;49m[37m[40m[H[2J[37m[40m[J(B[m[39;49m[37m[40m[37m[40m[J[39;49m(B[m[43d[93m[44mProcurando www2.ichi.br first[K[39;49m(B[m[93m[44mRecebendo http://www2.ichi.br/[39;49m(B[m[93m[44mProcurando www2.ichi.br[K[39;49m(B[m[93m[44mMaking HTTP connection to www2.ichi.br[39;49m(B[m[93m[44mEnviando requisição HTTP.[K[39;49m(B[m[6G[93m[44mda requisição HTTP; aguardando resposta.[39;49m(B[m[93m[44mHTTP/1.1 200 OK[K[39;49m(B[m[93m[44mTransferência completada[39;49m(B[m[1;178H[35m[40mAwesome website[2;70H[93m[44mIt works! This tag was renderized by echo from php tag[42d[39;49m(B[m
+
+[37m[40mSetas para cima/baixo move.A direita segue um link; A esquerda para voltar.
+H)Ajuda O)Opções P)Imprimir G)Segue M)Principal Q)Sair /=procura [delete]=Histórico [39;49m(B[m[43d[93m[44mComandos: Use as setas para mover,'?' ajuda, 'q' sair, '<-' voltar.[39;49m(B[m
+
+[37m[40m[J[39;49m(B[m[45;1H[?1049l[?1l>
+
+Saindo via interrupção: 2
+

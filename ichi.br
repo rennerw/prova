@@ -1,0 +1,19 @@
+$TTL 1h
+ichi.br. IN SOA ns.ichi.br. root.ichi.br. (
+2018050301 ; serial
+18000; refresh
+3600; retry
+604800; expire
+38400; minimum
+)
+@ IN A 172.23.128.1
+www IN A 172.23.128.1
+www2 IN A 172.23.128.1
+mail IN A 172.23.128.1
+ns IN A 172.23.128.1
+pgsql IN A 172.23.128.1
+php IN A 172.23.128.1
+@ IN NS ns.ichi.br.
+@ IN MX 10 mail.ichi.br.
+servidor IN A 172.23.128.1
+server IN CNAME servidor
