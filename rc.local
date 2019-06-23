@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+/usr/local/ntp/sbin/ntpd -c /usr/local/ntp/ntpd.conf
+
+/usr/local/dhcpd/sbin/dhcpd -cf /usr/local/dhcpd/etc/dhcpd.conf enp0s8
+
+/usr/local/bind/sbin/named -c /usr/local/bind/etc/named.conf
+
+/usr/local/apache2/bin/apachectl start
